@@ -1,0 +1,1 @@
+kubectl scale deployment -n microservices hello-v1 --replicas 4

@@ -1,0 +1,1 @@
+kubectl set env deployment -n microservices hello-v1 VERSION=V2

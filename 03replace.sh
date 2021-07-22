@@ -1,0 +1,1 @@
+kubectl -n microservices  delete pod `kubectl get pods -n microservices | grep hello -m 2| awk '{ print $1 }'` --grace-period 0 --force
